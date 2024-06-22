@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <_name>Group With Brother</_name>
+  <id>flizzyclone.InsetProperties.GroupWithCommon</id>
+  <dependency type="executable" location="inx">groupWithCommon.py</dependency>
+  <effect>
+    <effects-menu>
+       <submenu name="Insets"/>
+    </effects-menu>
+  </effect>
+  <script>
+    <command location="inx" interpreter="python">groupWithCommon.py</command>
+  </script>
+</inkscape-extension>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <_name>Set Inset Properties</_name>
+  <id>flizzyclone.InsetProperties.SetProperties</id>
+  <dependency type="executable" location="inx">setInsetProperties.py</dependency>
+  <effect>
+    <effects-menu>
+       <submenu name="Insets"/>
+    </effects-menu>
+  </effect>
+  <script>
+    <command location="inx" interpreter="python">setInsetProperties.py</command>
+  </script>
+</inkscape-extension>
