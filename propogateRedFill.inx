@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
   <_name>Propogate Red Fill</_name>
-  <id>flizzyclone.InsetProperties.PropogateRedFill</id>
+  <id>flizzyclone.YAPms.PropogateRedFill</id>
   <dependency type="executable" location="inx">propogateRedFill.py</dependency>
   <effect>
     <effects-menu>
-       <submenu name="Insets"/>
+       <submenu name="YAPms"/>
     </effects-menu>
   </effect>
   <script>

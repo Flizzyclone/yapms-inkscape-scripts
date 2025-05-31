@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
   <_name>Set Inset Properties</_name>
-  <id>flizzyclone.InsetProperties.SetProperties</id>
+  <id>flizzyclone.YAPms.SetProperties</id>
   <dependency type="executable" location="inx">setInsetProperties.py</dependency>
   <effect>
     <effects-menu>
-       <submenu name="Insets"/>
+       <submenu name="YAPms"/>
     </effects-menu>
   </effect>
   <script>

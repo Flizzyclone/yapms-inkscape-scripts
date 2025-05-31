@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
-  <_name>Group With Brother</_name>
-  <id>flizzyclone.YAPms.GroupWithCommon</id>
-  <dependency type="executable" location="inx">groupWithCommon.py</dependency>
+  <_name>Set Basic Properties</_name>
+  <id>flizzyclone.YAPms.SetBasicProperties</id>
+  <dependency type="executable" location="inx">setBasicProperties.py</dependency>
   <effect>
     <effects-menu>
        <submenu name="YAPms"/>
     </effects-menu>
   </effect>
   <script>
-    <command location="inx" interpreter="python">groupWithCommon.py</command>
+    <command location="inx" interpreter="python">setBasicProperties.py</command>
   </script>
 </inkscape-extension>
