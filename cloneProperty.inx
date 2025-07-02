@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <_name>Clone Property</_name>
+  <id>flizzyclone.InsetProperties.CloneProperty</id>
+  <param name="from_name" type="string" _gui-text="Property to clone from"></param>
+  <param name="to_name" type="string" _gui-text="Property to clone to"></param>
+  <dependency type="executable" location="inx">cloneProperty.py</dependency>
+  <effect>
+    <effects-menu>
+       <submenu name="YAPms"/>
+    </effects-menu>
+  </effect>
+  <script>
+    <command location="inx" interpreter="python">cloneProperty.py</command>
+  </script>
+</inkscape-extension>

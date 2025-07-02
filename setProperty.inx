@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <_name>Set Arbitrary Property</_name>
+  <id>flizzyclone.InsetProperties.SetArbitraryProperty</id>
+  <param name="property" type="string" _gui-text="Property Name"></param>
+  <param name="value" type="string" _gui-text="Value to Set"></param>
+  <dependency type="executable" location="inx">setProperty.py</dependency>
+  <effect>
+    <effects-menu>
+       <submenu name="YAPms"/>
+    </effects-menu>
+  </effect>
+  <script>
+    <command location="inx" interpreter="python">setProperty.py</command>
+  </script>
+</inkscape-extension>

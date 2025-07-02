@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <_name>Remove Property</_name>
+  <id>flizzyclone.InsetProperties.RemoveProperty</id>
+  <param name="property" type="string" _gui-text="Property Name"></param>
+  <dependency type="executable" location="inx">removeProperty.py</dependency>
+  <effect>
+    <effects-menu>
+       <submenu name="YAPms"/>
+    </effects-menu>
+  </effect>
+  <script>
+    <command location="inx" interpreter="python">removeProperty.py</command>
+  </script>
+</inkscape-extension>
