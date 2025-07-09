@@ -28,7 +28,8 @@ def set_props(elem):
     second_child.attrib.pop('short-name')
     second_child.attrib.pop('value')
 
-    second_child.attrib.pop('style')
+    if 'style' in second_child.attrib:
+        second_child.attrib.pop('style')
 
     second_child.attrib['map-type'] = 'inset-region'
     

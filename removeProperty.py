@@ -5,8 +5,8 @@ import inkex
 from tkinter import messagebox
 
 def set_props(elem, prop):
-
-    elem.attrib.pop(prop)
+    if prop in elem.attrib:
+        elem.attrib.pop(prop)
 
     return True
 
