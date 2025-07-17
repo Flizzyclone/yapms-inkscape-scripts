@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <_name>Set Two Arbitrary Properties</_name>
+  <id>flizzyclone.InsetProperties.SetTwoArbitraryProperties</id>
+  <param name="property" type="string" _gui-text="Property Name 1"></param>
+  <param name="value" type="string" _gui-text="Value to Set 1"></param>
+  <param name="property2" type="string" _gui-text="Property Name 2"></param>
+  <param name="value2" type="string" _gui-text="Value to Set 2"></param>
+  <dependency type="executable" location="inx">setTwoProperty.py</dependency>
+  <effect>
+    <effects-menu>
+       <submenu name="YAPms"/>
+    </effects-menu>
+  </effect>
+  <script>
+    <command location="inx" interpreter="python">setTwoProperty.py</command>
+  </script>
+</inkscape-extension>
